@@ -1,0 +1,252 @@
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+	display: block;
+	margin: 0px auto;
+	font-size:0px;
+}
+* {
+	box-sizing: border-box; 
+
+}
+
+i, p, h3,h2,h1, img, .fa, a {
+	font-size:20px;
+	color: rgb(132,186,224);
+}
+
+.container{
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+	padding: 10px;
+}
+.top{
+	border-top: solid 2px rgb(132,186,224);
+	border-left: solid 2px rgb(132,186,224);
+	border-right: solid 2px rgb(132,186,224);
+	display: block;
+	vertical-align: top;
+
+}
+.middle{
+	border: solid 2px rgb(132,186,224);
+	display: block;
+	vertical-align: top;
+}
+i, h3 {
+	padding: 10%;
+	box-sizing: border-box;
+}
+/*This brought the 'Save the tree' and '29' side by side*/
+.bottom > div{
+	display: inline-block;
+}
+.bottom{
+	display: inline-block;
+	width: 100%;
+}
+
+.middle > div{
+	width: 20%;
+	display: inline-block;
+}
+.right{
+	text-align: right;
+	width: 50%;
+}
+.left{
+	text-align: left;
+	width:50%;
+}
+
+.middle > div i, .middle > div h3 {
+	display:block;
+	text-align: center;
+	margin:-2px;
+	border-right: solid 2px rgb(132,186,224);
+}
+
+/*Code for the Div 1,2,5 -Icon*/
+
+i:hover{
+	background-color: rgb(132,186,224);
+	color: white;
+}
+
+/*Animation Code for the Shirtsize*/
+
+.dropbtn {
+	font-family: 'Raleway', sans-serif;
+    color: rgb(132,186,224);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/*This manipulates the content in the dropdown box*/
+
+.dropdown-content {
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(132,186,224);
+    position: absolute;
+    background-color: white;
+    min-width: 100%;
+    border: 2px solid rgb(132,186,224) ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    bottom: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+.dropdown-content a {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(132,186,224);
+    width: 100%;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content{
+	width: 106px;
+	padding: 1px;
+}
+
+/*Animation Code for the Shirtcolor in DIV 2*/
+
+
+.color {
+	width:20px;
+	height:20px;
+	background-color:rgb(132,186,224);
+	margin-left: 25px !important;
+}
+
+.shirt{
+	border-right: 2px solid red;
+	margin: 0px auto;
+}
+.shirtcolor{
+	background-color: rgb(132,186,224);
+    width: 10px;
+    height: 10px;
+    margin: 0px auto;
+}
+
+.color-content > div{
+	height: 30px;
+	width:30px;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+.yellow, .blue, .red, .orange{
+	margin: 10px;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.red{
+	background-color: red;
+}
+
+.orange{
+	background-color: orange;
+}
+
+/*Animation for Shirt Flip in Div 1*/
+
+
+.box:hover ~ .blueshirt{
+	transform: rotateY(180deg);
+}
+
+.top, .front, .back{
+	width: 100%;
+	height: 100%;
+}
+
+.blueshirt{
+	transition: 0.8s;
+	transform-style: preserve-3d;
+	position: relative;
+	max-width: 100%;
+	margin: 0px auto;
+	padding-left: 25px;
+	height: 275px;
+}
+
+.front, .back{
+	backface-visibility: hidden;
+	position: absolute;
+	max-width: 100%;
+	margin: 0px auto;
+	padding: 20px;
+}
+
+.front{
+	z-index: 2;
+}
+
+.back{
+	transform: rotateY(180deg);
+	margin-left: -30px;
+}
+
+.flip{
+	width: 20px;
+	height: 20px;
+}
+
+.box{
+	width: 30px;
+	height: 30px;
+	border: 2px solid rgb(132,186,224);
+	z-index: 9999;
+}
+
+
+
+.top img {
+	max-height:250px;
+}
+
+.subtotal{
+	position: absolute;
+	margin: 0px auto;
+}
+
+.total{
+	position: absolute;
+	margin: 0px auto;
+}
+
+
+
+
+
+
+
+
