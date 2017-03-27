@@ -141,13 +141,13 @@ orangeShirt.addEventListener('click', function(){
 
 // Add event listener for the cart button
 
-showButton.addEventListener('click', function(){
-  if(isCartShowing === flase)
-    prices.style.display = 'block'
+// showButton.addEventListener('click', function(){
+//   if(isCartShowing === flase)
+//     prices.style.display = 'block'
 
-}
-  )
-}
+// }
+//   )
+// }
 
 
 
